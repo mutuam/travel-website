@@ -24,7 +24,6 @@ html{
     color: #0098a1;
 }
 body{
-    background:black;
     height:3000px;
 }
 header{
@@ -81,6 +80,7 @@ header .fa-bars{
     cursor:pointer;
     display:none;
 }
+
 .home{
     min-height:100vh;
     display:flex;
@@ -215,11 +215,13 @@ header .fa-bars{
     cursor:pointer;
     transition:.2s linear;
 }
+
 .feature .card-container .content .btn:hover{
     background:none;
-    border:2rem solid #0098a1;
+    border:.2rem solid #0098a1;
     color: #0098a1;
 }
+
 .feature .card-container .card .discount{
     position:absolute;
     top:1rem; left:1rem;
@@ -234,7 +236,7 @@ header .fa-bars{
 }
 .about{
     min-height:100vh;
-    margin-top:400px;
+    margin-top:50px;
     background-color:#FFf;
 }
 .about .row{
@@ -374,7 +376,7 @@ header .fa-bars{
 
 .review .box-container .box .content p{
     font-size:1.4rem;
-    color:#333;
+    color:white;
     padding:.5rem 1.5rem;
 }
 .review .box-container .box .content .stars i{
@@ -422,7 +424,7 @@ header .fa-bars{
     outline:none;
     border:.2rem solid #0098a1;
     height:4rem;
-    background:#0098a1;
+    /*background:#0098a1;*/
     padding:0 1rem;
     margin:1rem 0;
     font-size:1.8rem;
@@ -609,7 +611,7 @@ header .fa-bars{
     font-size:3rem;
 
     }
-    header.nav-toggle{
+    header .nav-toggle{
         top:5.5rem;
         opacity:1;
     }
